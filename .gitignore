@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables (CRITICAL: Do not push secrets)
+.env
+.env.local
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Supabase/Database
+supabase/
+*.sqlite3
+
+# Pytest
+.pytest_cache/
